@@ -1,0 +1,46 @@
+blockquote{
+    color: blue;
+}
+
+a[href^='https'] {
+    color: red;
+}
+
+.list :nth-child(4) a {
+    background-color: green;
+}
+.list + p {
+    font-size: 26px;
+}
+
+.text-box > :first-child {
+        color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box div p {
+    color: red;
+}
+.text-box :nth-child(7)
+ {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+
+.bg-box {
+    width: 98vmax;
+    height: 98vmin;
+    background: url("img/dom.jpg") center center / 600px 400px no-repeat,
+        url("img/donut.png") right / 50px 50px repeat-y,
+        url("img/ej.png") left / 50px 50px repeat-y,
+        url("img/light.png") top / 50px 50px repeat-x,
+        url("img/trava.png") bottom / 150px 250px repeat-x;
+        background-color: green;
+}
